@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleScroll = () => {
         const header = document.querySelector('.header.container');
         var scroll_position = window.scrollY;
-        if( scroll_position > 250 ) {
+        if( scroll_position > 80 ) {
             header.style.backgroundColor = "#29323C";
         } else {
             header.style.backgroundColor = "transparent";
