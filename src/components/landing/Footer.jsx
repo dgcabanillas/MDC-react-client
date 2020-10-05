@@ -1,30 +1,35 @@
 import React from 'react';
+import SocialItem from './items/SocialItem';
 
 const Footer = () => {
+    const socialitems = [
+        {
+            link: "https://www.facebook.com/dgcc94/",
+            image: "/img/social/facebook.png"
+        },
+        {
+            link: "https://www.instagram.com/diego_grcc/",
+            image: "/img/social/instagram.png"
+        },
+        {
+            link: "https://twitter.com/DiegoCa20137807",
+            image: "/img/social/twitter.png"
+        },
+        {
+            link: "https://github.com/dgcabanillas",
+            image: "/img/social/github.png"
+        }
+    ]
+
     return (  
         <section id="footer">
             <div className="footer container">
                 <div className="brand"> <h1> <span>D</span>iego <span>C</span>abanillas</h1> </div>
-                <h2> Your Complete Web Solution </h2>
+                <h2> Your Complete Software Solution </h2>
                 <div className="social-icon">
-                    <div className="social-item">
-                        <a href="#hero"> <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt=""/></a>
-                    </div>
-                    <div className="social-item">
-                        <a href="#hero"> <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt=""/></a>
-                    </div>
-                    <div className="social-item">
-                        <a href="#hero"> <img src="https://img.icons8.com/bubbles/100/000000/twitter.png" alt=""/></a>
-                    </div>
-                    <div className="social-item">
-                        <a href="#hero"> <img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt=""/></a>
-                    </div>
+                    {socialitems.map( (info, index) => <SocialItem key={index} info={info} /> )}
                 </div>
                 <p> Copyright &copy; 2020 Diego. All rights reserverd </p>
-                
-                {/*
-                    <a target="_blank" href="https://iconos8.es/icons/set/consultation">Consulta icon</a> icono por <a target="_blank" href="https://iconos8.es">Icons8</a>
-                */}
             </div>
         </section>
     );

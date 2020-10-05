@@ -7,24 +7,25 @@ const Projects = () => {
         {
             title: "PetCare",
             subtitle: "Reserva una cita para tu pequeño compañero",
-            description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio commodi aut quod, excepturi odit veritatis blanditiis! Quae, voluptatum quis? Explicabo officia error nihil? Incidunt, itaque? At suscipit sint tempore perferendis, ullam libero odio deleniti dolore aliquam eum cupiditate dolorem odit? Libero ab asperiores provident! Ut tempore recusandae commodi tenetur fugit.",
+            description: "Este proyecto fue realizado siguiendo la guía de un curso que conseguí en Udemy. Está desarrollado en React y tiene la funcionalidad de registrar las citas de los clientes de una veterinaria. Actualmente no tiene implementada la parte del backend; pero en un futuro estaré terminando su desarrollo.",
             image: "/img/projects/veterinaria.png"
-        },
-        {
-            title: "Mi Presupuesto",
-            subtitle: "Organiza de la mejor manera tu presupuesto del mes",
-            description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio commodi aut quod, excepturi odit veritatis blanditiis! Quae, voluptatum quis? Explicabo officia error nihil? Incidunt, itaque? At suscipit sint tempore perferendis, ullam libero odio deleniti dolore aliquam eum cupiditate dolorem odit? Libero ab asperiores provident! Ut tempore recusandae commodi tenetur fugit.",
-            image: "/img/projects/presupuesto.png"
         },
         {
             title: "Space Ship",
             subtitle: "Juego de naves",
-            description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio commodi aut quod, excepturi odit veritatis blanditiis! Quae, voluptatum quis? Explicabo officia error nihil? Incidunt, itaque? At suscipit sint tempore perferendis, ullam libero odio deleniti dolore aliquam eum cupiditate dolorem odit? Libero ab asperiores provident! Ut tempore recusandae commodi tenetur fugit.",
+            description: "Proyecto realizado por uno de mis alumnos bajo mi supervición. Está desarrollado en C++ y utiliza el paradigma de las programación orientada a objetos. Considero que la creación de videojuegos es una de las actividades que más refuerza todo lo aprendido en cualquier curso de progrmación ya que para el desarrollo del mismo requiere un alto nivel de lógica y conocimiento intermedio de la sintaxis del lenguaje.",
             image: "/img/projects/space-ship.png"
         }
     ]; 
 
     /*
+    
+        {
+            title: "Mi Presupuesto",
+            subtitle: "Organiza de la mejor manera tu presupuesto del mes",
+            description: "De igual",
+            image: "/img/projects/presupuesto.png"
+        },
         {
             title: "Sphere Shooter",
             subtitle: "Juego de disparos",
