@@ -20,7 +20,7 @@ const Services = () => {
             index: 2,
             image: "/img/macros.png",
             title: "Creación de Macros (VBA)",
-            description: "Déjame contarte que tuve la fortuna de trabajar para una empresa dedicada a las microfinanzas, y en esa maravillosa experiencia tuve la oportunidad de entender las necesidades que tenían debido a la inmensa información que ahí se maneja. Por ello fue muy importante para mi aprender a automatizar mi trabajo a través de las macros desarolladas con VBA y el uso de base de datos en SQL. Puedo asegurarte que hubo meses en lo que literalmente me dedicaba a ver cómo mi labor se hacía de manera autónoma y me daba tiempo para realizar otras funciones que escalorn mi vida profesional."
+            description: "Déjame contarte que tuve la fortuna de trabajar para una empresa dedicada a las microfinanzas, y en esa maravillosa experiencia tuve la oportunidad de entender las necesidades que tenían debido a la inmensa información que ahí se maneja. Por ello fue muy importante para mi aprender a automatizar mi trabajo a través de las macros desarolladas con VBA y el uso de base de datos en SQL. Puedo asegurarte que hubo meses en lo que literalmente me dedicaba a ver cómo mi labor se hacía de manera autónoma y me daba tiempo para realizar otras funciones que escalaron mi vida profesional."
         }
     ];
 

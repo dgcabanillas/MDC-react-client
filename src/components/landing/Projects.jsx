@@ -13,7 +13,7 @@ const Projects = () => {
         {
             title: "Space Ship",
             subtitle: "Juego de naves",
-            description: "Proyecto realizado por uno de mis alumnos bajo mi supervisión. Está desarrollado en C++ y utiliza el paradigma de las programación orientada a objetos. Considero que la creación de videojuegos es una de las actividades que más refuerza todo lo aprendido en cualquier curso de programación ya que para el desarrollo del mismo requiere un alto nivel de lógica y conocimiento intermedio de la sintaxis del lenguaje.",
+            description: "Proyecto realizado por uno de mis alumnos bajo mi supervisión. Está desarrollado en C++ y utiliza el paradigma de la programación orientada a objetos. Considero que la creación de videojuegos es una de las actividades que más refuerza todo lo aprendido en cualquier curso de programación ya que para el desarrollo del mismo requiere un alto nivel de lógica y conocimiento intermedio de la sintaxis del lenguaje.",
             image: "/img/projects/space-ship.png"
         }
     ]; 

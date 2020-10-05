@@ -19,6 +19,8 @@ const Landing = () => {
             <Skills />
             <Contact />
             <Footer />
+            {/*
+            */}
         </Fragment>
     );
 }

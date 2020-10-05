@@ -1,6 +1,11 @@
 import React from 'react';
 
 const ProjectItem = ( {project} ) => {
+
+    const imgStyle = { 
+        backgroundImage: "url(" + project.image + ")",
+        filter: "blur(20px)"
+    }
     return (
         <div className="project-item">
             <div className="project-info">
@@ -9,7 +14,10 @@ const ProjectItem = ( {project} ) => {
                 <p> { project.description } </p>
             </div>
             <div className="project-img">
-                <img src={ project.image } alt="img" />
+                <div className="project-img-bg" style={ imgStyle }> </div>
+                <div className="project-img-main">
+                    <img src={ project.image } alt="img" />
+                </div>
             </div>
         </div>
     );
