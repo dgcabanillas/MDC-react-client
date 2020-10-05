@@ -38,7 +38,7 @@ const Projects = () => {
         <section id="projects">
             <div className="projects container">
                 <div className="projets-header">
-                    <h1 className="section-title"> Some <span>Projects</span> </h1>
+                    <h1 className="section-title"> Algunos <span>Proyectos</span> </h1>
                 </div>
                 <div className="all-projects">
                     {projects.map( ( project, index ) => <ProjectItem key={index} project={ project } /> )}

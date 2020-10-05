@@ -28,7 +28,7 @@ const Services = () => {
         <section id="services">
             <div className="services container">
                 <div className="service-top">
-                    <h1 className="section-title"> Serv<span>i</span>ces </h1>
+                    <h1 className="section-title"> Serv<span>i</span>cios </h1>
                     <p>
                         A través de los años he ido desarrollando y fortaleciendo mis habilidades como desarrollador de Software de manera autodidacta, y entendiendo la dificultad de los problemas que tuve que superar, vengo a ofrecerte la oportunidad de desarrollar tus propias habilidades o hacer realidad algunas de tus maravillosas ideas sin que tengas las complicaciones que tuve por la falta de un guía.
                     </p>

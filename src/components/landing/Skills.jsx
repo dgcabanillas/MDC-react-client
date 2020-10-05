@@ -34,7 +34,7 @@ const Skills = () => {
         <section id="skills">
             <div className="skills container">
                 <div className="projets-header">
-                    <h1 className="section-title"> My <span> Skills </span> </h1>
+                    <h1 className="section-title"> Mis <span> Habilidades </span> </h1>
                 </div>
                 <div className="all-skills">
                     {skills.map( (skill, index) => <SkillItem key={index} skill={skill} /> )}

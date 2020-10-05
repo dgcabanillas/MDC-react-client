@@ -33,12 +33,12 @@ const Navbar = () => {
                     <div className="nav-list">
                         <div className="hamburger" onClick={hideMenu}> <div className="bar"></div> </div>
                         <ul>
-                            <li> <a href="#hero" data-after="Home" onClick={hideMenu}> Home </a> </li>
-                            <li> <a href="#services" data-after="Services" onClick={hideMenu}> Services </a> </li>
-                            <li> <a href="#projects" data-after="Projects" onClick={hideMenu}> Projects </a> </li>
-                            <li> <a href="#about" data-after="About" onClick={hideMenu}> About </a> </li>
-                            <li> <a href="#skills" data-after="Skills" onClick={hideMenu}> Skills </a> </li>
-                            <li> <a href="#contact" data-after="Contact" onClick={hideMenu}> Contact </a> </li>
+                            <li> <a href="#hero" data-after="Home" onClick={hideMenu}> Inicio </a> </li>
+                            <li> <a href="#services" data-after="Services" onClick={hideMenu}> Servicios </a> </li>
+                            <li> <a href="#projects" data-after="Projects" onClick={hideMenu}> Proyectos </a> </li>
+                            <li> <a href="#about" data-after="About" onClick={hideMenu}> Sobre Mí </a> </li>
+                            <li> <a href="#skills" data-after="Skills" onClick={hideMenu}> Habilidades </a> </li>
+                            <li> <a href="#contact" data-after="Contact" onClick={hideMenu}> Contacto </a> </li>
                         </ul>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col-right">
-                    <h1 className="section-title"> About <span>me</span> </h1>
+                    <h1 className="section-title"> Sobre <span>mí</span> </h1>
                     <h2>  Software Developer </h2>
                     <p>
                         Hola, como ya sabréis mi nombre es Diego Cabanillas. 
@@ -21,7 +21,7 @@ const About = () => {
                         <br/> <br/>  Me considero una persona rebelde; pero descuida, lo digo en el sentido que me gusta desafiar las soluciones ya existentes, que aunque puedan funcionar, en la mayoría de los casos pueden ser optimizados para garantizar la agilidad de su ejecución.
                         <br/> <br/> Creo firmemente en que la disciplina y la autoeducación son los puntos claves para lograr el éxito. 
                     </p>
-                    <a href="#hero" type="button" className="cta"> Download Resume </a>
+                    <a href="#!" type="button" className="cta" onClick={ () => alert("En Proceso") }> Download Resume </a>
                 </div>
             </div>
         </section>
