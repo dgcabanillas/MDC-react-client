@@ -25,7 +25,6 @@ const Footer = () => {
                 {/*
                     <a target="_blank" href="https://iconos8.es/icons/set/consultation">Consulta icon</a> icono por <a target="_blank" href="https://iconos8.es">Icons8</a>
                 */}
-                
             </div>
         </section>
     );

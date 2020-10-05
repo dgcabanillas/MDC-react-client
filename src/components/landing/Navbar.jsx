@@ -37,6 +37,7 @@ const Navbar = () => {
                             <li> <a href="#services" data-after="Services" onClick={hideMenu}> Services </a> </li>
                             <li> <a href="#projects" data-after="Projects" onClick={hideMenu}> Projects </a> </li>
                             <li> <a href="#about" data-after="About" onClick={hideMenu}> About </a> </li>
+                            <li> <a href="#skills" data-after="Skills" onClick={hideMenu}> Skills </a> </li>
                             <li> <a href="#contact" data-after="Contact" onClick={hideMenu}> Contact </a> </li>
                         </ul>
                     </div>
