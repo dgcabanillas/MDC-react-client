@@ -21,7 +21,7 @@ const About = () => {
                         <br/> <br/>  Me considero una persona rebelde; pero descuida, lo digo en el sentido que me gusta desafiar las soluciones ya existentes, que aunque puedan funcionar, en la mayoría de los casos pueden ser optimizados para garantizar la agilidad de su ejecución.
                         <br/> <br/> Creo firmemente en que la disciplina y la autoeducación son los puntos claves para lograr el éxito. 
                     </p>
-                    <a href="#!" type="button" className="cta" onClick={ () => alert("En Proceso") }>  Descargar CV </a>
+                    <a href="DiegoCabanillas.pdf" type="button" className="cta" download>  Descargar CV </a>
                 </div>
             </div>
         </section>
